@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:text="Thay đổi sđt"
+        android:gravity="center"
+        android:textSize="37dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#1e90ff"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    </TextView>
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Số điện thoại hiện tại: "
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/sdtht"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:textColor="#ee0000"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:text="Nhập số điện thoại mới:"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:id="@+id/sdtmoi"
+            android:textSize="25dp"
+            android:layout_marginTop="12dp"
+            android:textColor="#ee0000"
+            android:textStyle="italic"
+            android:inputType="phone"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content">
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/xacnhan"
+            android:text="xác nhận"
+            android:layout_width="130dp"
+            android:textSize="23dp"
+            android:textColor="#ffffff"
+            android:background="#1e90ff"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/cancel"
+            android:text="cancel"
+            android:textSize="23dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#ee0000"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
